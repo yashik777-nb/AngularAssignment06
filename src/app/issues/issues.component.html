@@ -12,7 +12,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let issue of issues">
+        <tr *ngFor="let issue of (issues | async).issues">
           <td class="text-primary">{{ issue.issueDescription }}</td>
           <td class="text-primary">{{ issue.issueSeverity }}</td>
           <td class="text-primary">{{ issue.issueStatus }}</td>

@@ -1,9 +1,7 @@
 import { Action } from '@ngrx/store';
 import { Issue } from 'src/app/issue.modal';
-import * as IssueTypes from '../types/issue-types';
+import * as IssueTypes from '../types/action-types';
 import * as ActionsIndex from '../actions/actionsIndex';
-
-// import * as IssuesActions from '../actions/issues.actions';
 
 const initialState = {
   issues: [

@@ -16,7 +16,7 @@ import { issuesReducer } from './store/reducers/issues.reducer';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    StoreModule.forRoot({ issues: issuesReducer }),
+    StoreModule.forRoot({ issuesList: issuesReducer }),
   ],
   providers: [],
   bootstrap: [AppComponent],
